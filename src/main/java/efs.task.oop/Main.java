@@ -19,8 +19,8 @@ public class Main {
             villager.sayHello();
         }
 
-        Object objectDeckardCain = villagers[5];
         Object objectAkara = villagers[4];
+        Object objectDeckardCain = villagers[5];
 
         // objectAkara.sayHello();
 
@@ -46,8 +46,8 @@ public class Main {
 
         System.out.println("Obozowisko ocalone!");
 
-        ExtraordinaryVillager dekardCain = (ExtraordinaryVillager) objectDeckardCain;
         ExtraordinaryVillager akara = (ExtraordinaryVillager) objectAkara;
+        ExtraordinaryVillager dekardCain = (ExtraordinaryVillager) objectDeckardCain;
         
         akara.sayHello();
         dekardCain.sayHello();

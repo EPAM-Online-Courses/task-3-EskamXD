@@ -18,16 +18,20 @@ public class ExtraordinaryVillager extends Villager {
         }
     }
 
-    Skill skill;
+    private Skill skill;
 
     public ExtraordinaryVillager(String name, int age, Skill skill) {
         super(name, age);
         this.skill = skill;
     }
 
+    public Skill getSkill() {
+        return skill;
+    }
+
     @Override
     public void sayHello() {
-        System.out.println("Greeting traveler... I'm " + name + " and I'm " + age + " years old. " + skill.getDescription());
+        System.out.println("Greetings traveler... I'm " + name + " and I'm " + age + " years old. " + skill.getDescription());
     }
 
     @Override
@@ -37,6 +41,6 @@ public class ExtraordinaryVillager extends Villager {
 
     @Override
     public void takeHit(int damage) {
-        health = 0;
+        this.health = 0;
     }
 }
