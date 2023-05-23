@@ -1,7 +1,7 @@
 package efs.task.oop;
 
 public class ExtraordinaryVillager extends Villager {
-    enum Skill {
+    public enum Skill {
         IDENTIFY("I will identify items for you at no charge."),
         SHELTER("I can offer you poor shelter.");
 
@@ -13,7 +13,7 @@ public class ExtraordinaryVillager extends Villager {
             this.description = description;
         }
         // Getter
-        String getDescription() {
+        public String getDescription() {
             return description;
         }
     }
