@@ -50,5 +50,6 @@ public class Main {
         ExtraordinaryVillager akara = (ExtraordinaryVillager) objectAkara;
         
         akara.sayHello();
+        dekardCain.sayHello();
     }
 }

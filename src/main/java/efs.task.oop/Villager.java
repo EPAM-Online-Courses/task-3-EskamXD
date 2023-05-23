@@ -12,7 +12,7 @@ public class Villager implements Fighter {
     }
 
     public void sayHello() {
-        System.out.println("Greeting traveler... I'm " + name + " and I am " + age + " years old.");
+        System.out.println("Greeting traveler... I'm " + name + " and I'm " + age + " years old.");
     }
 
     @Override

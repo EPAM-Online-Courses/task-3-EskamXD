@@ -27,12 +27,11 @@ public class ExtraordinaryVillager extends Villager {
 
     @Override
     public void sayHello() {
-        System.out.println("Greeting traveler... I'm " + name + " and I am " + age + " years old. " + skill.getDescription());
+        System.out.println("Greeting traveler... I'm " + name + " and I'm " + age + " years old. " + skill.getDescription());
     }
 
     @Override
     public void attack(Fighter victim) {
-//        System.out.println("Atakuje extra villager");
         victim.takeHit(0);    
     }
 
